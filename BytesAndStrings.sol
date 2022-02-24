@@ -19,5 +19,5 @@ contract BytesAndStrings {
 
     function getLength() public view returns(uint) {
         return b1.length;
-    }s
+    }
 }
