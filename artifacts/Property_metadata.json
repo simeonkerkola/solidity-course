@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"first/overflow.sol": "Property"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"first/overflow.sol": {
+			"keccak256": "0xe75f891127b9c577ba9fb1c1599472f76097554efa5009e55deb34fec28efb93",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://567fe43274690dfc89c7c6667503b945c9e9c4072863cefad0fa78866fa9613f",
+				"dweb:/ipfs/QmeA2L6j2ZmB64L8NDeFQTTdf1jMG3HN3EtrFWqp1fNLCP"
+			]
+		}
+	},
+	"version": 1
+}
