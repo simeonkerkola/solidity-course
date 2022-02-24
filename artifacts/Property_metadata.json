@@ -6,16 +6,32 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "f1",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_location",
+						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -33,15 +49,41 @@
 			},
 			{
 				"inputs": [],
-				"name": "price",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "address",
 						"name": "",
-						"type": "int256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_location",
+						"type": "string"
+					}
+				],
+				"name": "setLocation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"name": "setPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"first/sol.sol": "Property"
+			"first/functions.sol": "Property"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -72,12 +114,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"first/sol.sol": {
-			"keccak256": "0xeb3b6be8c53151126f20f77ca0c0d5eb93158d067f0cea8900f2c779f275826a",
+		"first/functions.sol": {
+			"keccak256": "0x56a640bd4f0daabc6f476381d0f074d6f364dbe88c39daac494c97b9b4939563",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3ea11472fdcd3725d7f97a3a8b7835e21f44951d4d77de11bf1ba5a711b6cf8d",
-				"dweb:/ipfs/Qmbn8uw5HyApe9nWtiLdx3N6YCuWKD7iL3EqG8M5QXCnFB"
+				"bzz-raw://c11a17636cc0ce6af9a90db2b4088db06a5a1a3ca6d22d24b079acef0235fe97",
+				"dweb:/ipfs/QmQgZHv3XLZyMyLyme44cbXs3gQUomc4CEwGbX5dqdaMu1"
 			]
 		}
 	},
