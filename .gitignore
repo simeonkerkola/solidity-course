@@ -67,3 +67,5 @@ reports
 soljson.js
 npm-debug.log*
 babelify-src
+.DS_Store
+artifacts

@@ -7,19 +7,38 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "f1",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "x",
+				"name": "location",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "string",
 						"name": "",
-						"type": "uint8"
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"first/overflow.sol": "Property"
+			"first/sol.sol": "Property"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -53,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"first/overflow.sol": {
-			"keccak256": "0xe75f891127b9c577ba9fb1c1599472f76097554efa5009e55deb34fec28efb93",
+		"first/sol.sol": {
+			"keccak256": "0xeb3b6be8c53151126f20f77ca0c0d5eb93158d067f0cea8900f2c779f275826a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://567fe43274690dfc89c7c6667503b945c9e9c4072863cefad0fa78866fa9613f",
-				"dweb:/ipfs/QmeA2L6j2ZmB64L8NDeFQTTdf1jMG3HN3EtrFWqp1fNLCP"
+				"bzz-raw://3ea11472fdcd3725d7f97a3a8b7835e21f44951d4d77de11bf1ba5a711b6cf8d",
+				"dweb:/ipfs/Qmbn8uw5HyApe9nWtiLdx3N6YCuWKD7iL3EqG8M5QXCnFB"
 			]
 		}
 	},
