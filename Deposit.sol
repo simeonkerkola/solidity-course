@@ -20,4 +20,13 @@ contract Deposit {
     // ether can be send and received by the contract in the trasaction that calls this function as well
     function sendEther() public payable {
     }
+
+    function transferEther(address payable recipient, uint amount) public returns(bool) {
+        if (amount <= getBalance()) {
+            recipient.transfer(amount);
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
